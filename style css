@@ -49,4 +49,38 @@ line-height-29px
 
 color-black
 
-/
+/* MARKET VALUES */
+
+
+position absolute
+width-241px
+height-50px
+left-687px
+top-209px
+
+font-family-Inter
+font-style-normal
+font-weight-400
+font-size-24px
+line-height-29px
+
+color-blue
+
+/* CLUB */
+
+
+position-absolute
+width-162px
+height-39px
+left-983px
+top-209px
+
+font-family-Inter
+font-style-normal
+font-weight-400
+font-siz-24px
+line-height-29px
+
+color-blue
+
+/*
