@@ -40,4 +40,11 @@ function Marketvalue(){
       document.getElementById("card-title").textContent = data.title
   });
 }
-f
+function Club(){
+  fetch ("https://transfermarket.p.rapidapi.com/clubs/get-squad?id=631&saison_id=2022")
+  .then((res) => res.json())
+  .then((data) => {
+      document.getElementById("card-squad").src = data.Club
+      document.getElementById("card-title").textContent = data.title
+  });
+}
