@@ -22,3 +22,12 @@ function Competitions(){
       document.getElementById("card-title").textContent = data.title
   });
 }
+
+function Players(){
+  fetch ("https://transfermarket.p.rapidapi.com/players/get-performance-detail?id=106987&competitionID=CL&seasonID=2021")
+  .then((res) => res.json())
+  .then((data) => {
+      document.getElementById("card-players").src = data.players
+      document.getElementById("card-title").textContent = data.title
+  });
+}
