@@ -101,3 +101,19 @@ line-height-29px
 
 
 color-blue
+/* PLAYER */
+
+
+position-absolute
+width-283px
+height-66px
+left-1431px
+top-209px
+
+font-family-Inter
+font-style-normal
+font-weight-400
+font-size-24px
+line-height-29px
+
+color-blue
