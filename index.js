@@ -7,3 +7,9 @@ function TransferNews(){
 });
 }
 
+const addLikes = document.getElementById("like-count");
+let likes = 0;
+document.getElementById("like-button").addEventListener("click", () =>{
+    likes += 1;
+    renderLikes();
+})
