@@ -31,3 +31,13 @@ function Players(){
       document.getElementById("card-title").textContent = data.title
   });
 }
+
+function Marketvalue(){
+  fetch ("https://transfermarket.p.rapidapi.com/players/get-market-value?id=74842")
+  .then((res) => res.json())
+  .then((data) => {
+      document.getElementById("card-marketvalue").src = data.Marketvalue
+      document.getElementById("card-title").textContent = data.title
+  });
+}
+f
