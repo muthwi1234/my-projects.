@@ -13,3 +13,12 @@ document.getElementById("like-button").addEventListener("click", () =>{
     likes += 1;
     renderLikes();
 })
+
+function Competitions(){
+  fetch ("https://transfermarket.p.rapidapi.com/transfers/list-rumors?competitionIds=IT1%2CGB1&offset=0&sort=date_desc")
+  .then((res) => res.json())
+  .then((data) => {
+      document.getElementById("card-competitions").src = data.Competitions
+      document.getElementById("card-title").textContent = data.title
+  });
+}
